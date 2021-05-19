@@ -19,3 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/has-one' , [RelationsController::class , 'hasOne']);
+Route::get('/has-one-reverse' , [RelationsController::class , 'hasOneReverse']);
+Route::get('/has-many' , [RelationsController::class , 'hasMany']);
+Route::get('/has-many-reverse' , [RelationsController::class , 'hasManyReverse']);
